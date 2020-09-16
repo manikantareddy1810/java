@@ -1,0 +1,37 @@
+package oopscircle;
+
+public class TestCircle {
+	
+	public TestCircle(double value1) {
+		
+		this.rad = value1;
+	}
+	
+	double rad;
+	final static double pi=3.14;
+	
+	public void first() {
+		
+		System.out.println("area of a circle : "+pi*rad*rad);
+		System.out.println("circumference of circle : "+2*pi*rad);
+	}
+	
+
+}
+
+
+public class Circle {
+
+	public static void main(String[] args) {
+		
+		TestCircle area = new TestCircle(2.5);
+		
+		area.first();
+		
+		
+			
+
+	}
+
+}
+
